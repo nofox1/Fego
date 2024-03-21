@@ -1,0 +1,27 @@
+{
+  "name": "fego-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node config/seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nofox1"
+  },
+  "author": "nofox1",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.1",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.1",
+    "graphql": "^16.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.3",
+    "nodemon": "^3.1.0",
+    "stripe": "^14.22.0"
+  }
+}
