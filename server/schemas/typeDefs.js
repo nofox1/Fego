@@ -7,7 +7,7 @@ const typeDefs = `
         orders: [Order]
     }
 
-    type Category {
+    type Theme {
         _id: ID
         name: String
     }
@@ -19,7 +19,7 @@ const typeDefs = `
         image: String
         quantity: Int
         price: Float
-        category: Category
+        theme: Theme
     }
 
     type Order {
@@ -38,8 +38,8 @@ const typeDefs = `
     }
 
     type Query {
-        categories: [Category]
-        products(category: ID, name: String): [Product]
+        themes: [Theme]
+        products(theme: ID, name: String): [Product]
         product(_id: ID!): Product
         user: User
         order(_id: ID!): Order
