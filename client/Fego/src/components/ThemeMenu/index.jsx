@@ -31,4 +31,36 @@ function ThemeMenu() {
             });
         }
     }, [themeData, loading, dispatch]);
+
+    const handleClick = (id) => {
+        dispatch({
+            type: UPDATE_CURRENT_THEME,
+            currentTheme: id,
+        });
+    };
+
+    return (
+        <div>
+            <h2>Choose a Theme:</h2>
+            {themes.map((item) => (
+                <button
+                    key={item._id}
+                    onClick={() => {
+                        handleClick(item._id);
+                    }}
+                >
+                    {item.name}
+                </button>
+            ))}
+            <button
+                onClick={() => {
+                    handleClick('');
+                }}
+            >
+                All
+            </button>
+        </div>
+    );
 }
+
+export default ThemeMenu;
