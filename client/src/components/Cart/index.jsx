@@ -7,7 +7,7 @@ import CartItem from '../CartItem';
 import Auth from '../../utils/auth';
 import { useDispatch, useSelector } from 'react-redux';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/action';
-import './cartStyle';
+import './cartStyle.css';
 
 const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
