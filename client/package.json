@@ -1,39 +1,26 @@
 {
-  "name": "client",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "fego",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nofox1"
-  },
-  "author": "nofox1",
-  "license": "ISC",
   "dependencies": {
-    "@apollo/client": "^3.9.8",
-    "@stripe/stripe-js": "^3.0.10",
-    "@testing-library/react": "^14.2.2",
-    "graphql": "^16.8.1",
-    "happy-dom": "^14.3.1",
-    "jwt-decode": "^4.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^9.1.0",
-    "react-router-dom": "^6.22.3",
-    "redux": "^5.0.1",
-    "vitest": "^1.4.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.37",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^4.0.0",
-    "eslint": "^8.38.0",
-    "eslint-plugin-react": "^7.32.2",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.3.4",
-    "vite": "^4.4.5"
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
   }
 }
