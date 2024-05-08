@@ -23,7 +23,7 @@ db.once("open", async () => {
       theme: themes[0],
       description:
         "The LEGO Gunship with AT-OT is an iconic set that brings to life the epic battles of the Star Wars universe. Very hard to find a cheap sealed in box now days. Also came out in what is considered one of the best years 2009",
-      image: "",
+      image: "AT-OT.jpg",
       price: 2000,
       quantity: 1,
     },
@@ -32,7 +32,7 @@ db.once("open", async () => {
       theme: themes[1],
       description:
         "The LEGO Diagon Alley set is a magical recreation of the bustling wizarding shopping street from the Harry Potter series. This set came out in 2011. ",
-      image: "",
+      image: "diagon-alley.jpg",
       price: 400,
       quantity: 1,
     },
@@ -41,7 +41,7 @@ db.once("open", async () => {
       theme: themes[2],
       description:
         "This lego city set is one of a kind with it's unique build coming so early as 1990. This set is one of the most vintage if not the most of the lego city collection.",
-      image: "",
+      image: "airport-shuttle.jpg",
       price: 3800,
       quantity: 1,
     },
@@ -50,7 +50,7 @@ db.once("open", async () => {
       theme: themes[3],
       description:
         "This LEGO set is an iconic and highly sought-after Marvel set released in 2015.",
-      image: "",
+      image: "shield-helicarrier.jpg",
       price: 650,
       quantity: 1,
     },
@@ -59,7 +59,7 @@ db.once("open", async () => {
       theme: themes[4],
       description:
         "Well for beginners not many sets are 2 feet tall like the Tower of Orthanc. Like many sets on this website it is highly coveted collectible that was released in 2013.",
-      image: "",
+      image: "tower-of-orthanc",
       price: 750,
       quantity: 1,
     },
