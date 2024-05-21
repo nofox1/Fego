@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter} from 'react-router-dom'
 import './index.css'
@@ -22,7 +21,7 @@ const router = createBrowserRouter([
         index: true,
         element: <Home/>
       }, {
-        path: '/Login',
+        path: '/login',
         element: <Login/>
       }, {
         path: '/signup',

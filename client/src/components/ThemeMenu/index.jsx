@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useQuery } from '@apollo/client';
 import { useDispatch, useSelector } from 'react-redux';
-import { UPDATE_THEMES, UPDATE_CURRENT_THEME } from '../../utils/helpers';
+import { UPDATE_THEMES, UPDATE_CURRENT_THEME } from '../../utils/action';
 import { QUERY_THEMES } from '../../utils/queries';
 import { idbPromise } from "../../utils/helpers";
 
